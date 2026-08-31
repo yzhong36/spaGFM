@@ -1,0 +1,8 @@
+[submodule "scFM/scGPT"]
+	path = scFM/scGPT
+	url = https://github.com/yzhong36/scGPT.git
+	branch = optimize_fix
+[submodule "scFM/scConcept"]
+	path = scFM/scConcept
+	url = https://github.com/yzhong36/scConcept
+	branch = version_fix

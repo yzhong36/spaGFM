@@ -1,0 +1,27 @@
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtualenvs / conda
+.venv/
+venv/
+ENV/
+env/
+.conda/
+
+# Python package builds
+build/
+dist/
+*.egg-info/
+
+# OS / editor
+.DS_Store
+.vscode/
+
+# Training artifacts
+wandb/
+*.pt
+*.pth
+*.ckpt
+logs/
