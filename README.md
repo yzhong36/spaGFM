@@ -39,5 +39,12 @@ pip install -e .
 # Basic Usage
 Please refer to the [tutorials](./tutorials) direcory for basic usage of spaGFM.
 
+# Model Zoo
+The pretrained spaGFM models are available at [HuggingFace](https://huggingface.co/tinywind123/spaGFM). The model zoo includes the following models:
+- [human_36M](https://huggingface.co/tinywind123/spaGFM/blob/main/spaGFM/human_36M.pt): a small model with 36M parameters (Human).
+- [human_317M](https://huggingface.co/tinywind123/spaGFM/blob/main/spaGFM/human_317M.pt): a large model with 317M parameters (Human).
+- [mouse_36M](https://huggingface.co/tinywind123/spaGFM/blob/main/spaGFM/mouse_36M.pt): a small model with 36M parameters (Mouse).
+- [mouse_317M](https://huggingface.co/tinywind123/spaGFM/blob/main/spaGFM/mouse_317M.pt): a large model with 317M parameters (Mouse).
+
 # Acknowledgements
 We thank the authors of [scGPT](https://github.com/bowang-lab/scGPT) and [scConcept](https://github.com/theislab/scConcept) for their open-source codebases, which we adapted for our work. We also thank the authors of [PyTorch Geometric](https://pytorch-geometric.readthedocs.io/en/latest/) for their excellent library, which we used for model training and evaluation. 
