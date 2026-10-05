@@ -10,7 +10,7 @@ Foundation models offer a promising paradigm for modeling spatial transcriptomic
 ![Alt text](/fig/model.png)
 
 # Installation
-**Support platform**: this code is tested on Linux (RHEL 8/9; SLES 15 SP6). We highly recommend using a plaform with GPU for model evaluation.
+**Support platform**: this code is tested on Linux (RHEL 8/9; SLES 15 SP6). We highly recommend using a plaform with GPU for model evaluation. The whole installation process is about taking 10-15 minutes. Please make sure you have `git` and `conda` installed before proceeding.
 
 Clone the repository with submodules so that the external dependencies under
 `scFM/` are checked out:
